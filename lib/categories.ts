@@ -1,0 +1,58 @@
+import { Category } from './types';
+
+export const CATEGORIES: Category[] = [
+  {
+    id: 'jewelry',
+    name: 'Jewelry',
+    nameUrdu: 'زیورات',
+    slug: 'jewelry',
+    description: 'Dainty rings, chokers, earrings & bracelets — handpicked for the soft girl in you.',
+    image: 'https://images.pexels.com/photos/1630344/pexels-photo-1630344.jpeg?auto=compress&cs=tinysrgb&w=600',
+    productCount: 7,
+  },
+  {
+    id: 'hair-accessories',
+    name: 'Hair Accessories',
+    nameUrdu: 'بال اکسیسریز',
+    slug: 'hair-accessories',
+    description: 'Bows, claw clips, scrunchies & more for your dreamiest hair days.',
+    image: 'https://images.pexels.com/photos/3189139/pexels-photo-3189139.jpeg?auto=compress&cs=tinysrgb&w=600',
+    productCount: 6,
+  },
+  {
+    id: 'bouquets-gifts',
+    name: 'Bouquets & Gifts',
+    nameUrdu: 'گلدستے اور تحائف',
+    slug: 'bouquets-gifts',
+    description: 'Dried floral arrangements, gift hampers, and personalized boxes for every occasion.',
+    image: 'https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=600',
+    productCount: 5,
+  },
+  {
+    id: 'beauty',
+    name: 'Beauty',
+    nameUrdu: 'خوبصورتی',
+    slug: 'beauty',
+    description: 'Halal lip glosses, K-beauty skincare, and everything your glow-up needs.',
+    image: 'https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=600',
+    productCount: 5,
+  },
+  {
+    id: 'press-on-nails',
+    name: 'Press-On Nails',
+    nameUrdu: 'پریس آن ناخن',
+    slug: 'press-on-nails',
+    description: 'Salon-perfect press-on nails, 3D nail art sets, and nail sticker packs.',
+    image: 'https://images.pexels.com/photos/3997379/pexels-photo-3997379.jpeg?auto=compress&cs=tinysrgb&w=600',
+    productCount: 5,
+  },
+  {
+    id: 'cute-accessories',
+    name: 'Cute Accessories',
+    nameUrdu: 'پیاری اکسیسریز',
+    slug: 'cute-accessories',
+    description: 'Phone charms, sticker packs, keychains, coin purses & more kawaii finds.',
+    image: 'https://images.pexels.com/photos/5750980/pexels-photo-5750980.jpeg?auto=compress&cs=tinysrgb&w=600',
+    productCount: 6,
+  },
+];
